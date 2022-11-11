@@ -5,7 +5,7 @@ object Config {
         "com.owl_laugh_at_wasted_time.mytestmobile"
     const val compile_sdk = 32
     const val min_sdk = 24
-    const val target_sdk = 24
+    const val target_sdk = 32
     val java_version = JavaVersion.VERSION_1_8
 }
 
@@ -16,6 +16,8 @@ object Releases {
 
 object Modules {
     const val app = ":app"
+    const val api = ":api"
+    const val data = ":data"
 }
 
 object Versions {
@@ -46,27 +48,43 @@ object Versions {
     const val glideCompiler = "4.12.0"
 
     //retrofit
-    const val retrofit="2.9.0"
-    const val interceptor="5.0.0-alpha.3"
-    const val coroutinesAdapter="0.9.2"
-    const val okhttp="4.9.3"
+    const val retrofit = "2.9.0"
+    const val interceptor = "5.0.0-alpha.3"
+    const val coroutinesAdapter = "0.9.2"
+    const val okhttp = "4.9.3"
+
+    //Room
+    const val roomKtx = "2.4.2"
+    const val runtime = "2.4.2"
+    const val roomCompiler = "2.4.2"
 
 
 }
 
-object Retrofit{
-    const val retrofit="com.squareup.retrofit2:retrofit:${Versions.retrofit}"
-    const val converterJson="com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
-    const val interseptor="com.squareup.okhttp3:logging-interceptor:${Versions.interceptor}"
-    const val coroutinAdapter="com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.coroutinesAdapter}"
-    const val okhttp="com.squareup.okhttp3:okhttp:${Versions.okhttp}"
+object Retrofit {
+    const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
+    const val converterJson = "com.squareup.retrofit2:converter-gson:${Versions.retrofit}"
+    const val interseptor = "com.squareup.okhttp3:logging-interceptor:${Versions.interceptor}"
+    const val coroutinAdapter =
+        "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:${Versions.coroutinesAdapter}"
+    const val okhttp = "com.squareup.okhttp3:okhttp:${Versions.okhttp}"
 
+}
+
+object Room {
+    const val runtime = "androidx.room:room-runtime:${Versions.runtime}"
+    const val compiler = "androidx.room:room-compiler:${Versions.roomCompiler}"
+    const val room_ktx = "androidx.room:room-ktx:${Versions.roomKtx}"
 }
 
 object Glide {
     const val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
     const val glideIntegration = "com.github.bumptech.glide:okhttp3-integration:${Versions.glide}"
     const val glide_compiler = "com.github.bumptech.glide:compiler:${Versions.glideCompiler}"
+}
+
+object Adapter {
+    const val adapter = "com.elveum:element-adapter:0.4"
 }
 
 object Pref {

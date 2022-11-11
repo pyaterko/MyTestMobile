@@ -43,6 +43,9 @@ android {
 
 dependencies {
 
+    api project(':api')
+    api project(':data')
+
     implementation Design.appcompat
     implementation Design.material
     implementation Kotlin.core
@@ -55,7 +58,7 @@ dependencies {
     implementation Fragment.navigation_dinamic_fragment
     implementation Dagger.dagger
     kapt Dagger.dagger_compiler
-
+    implementation Adapter.adapter
     implementation Glide.glide
     implementation Glide.glideIntegration
     kapt Glide.glide_compiler

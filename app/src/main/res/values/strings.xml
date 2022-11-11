@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">MyTestMobile</string>
+    <string name="add_address">Add address</string>
+    <string name="my_cart">My Cart</string>
+    <string name="_6_000_us">$6,000 us</string>
+    <string name="total">Total</string>
+    <string name="delivery">Delivery</string>
+    <string name="free">Free</string>
+    <string name="checkout">Checkout</string>
+    <string name="product_details">Product Details</string>
+    <string name="_1">1</string>
+    <string name="galaxy_note_20_ultra">Galaxy Note 20 Ultra</string>
+    <string name="shop">Shop</string>
+    <string name="details">Details</string>
+    <string name="features">Features</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="_1_500_00">$1,500.00</string>
+    <string name="exynos_990">Exynos 990</string>
+    <string name="_108_12_mp">108 + 12 mp</string>
+    <string name="_8_gb">8 GB</string>
+    <string name="_256_gb">256 GB</string>
+    <string name="zihuatanejo_gro">Zihuatanejo, Gro</string>
+    <string name="select_category">Select Category</string>
+    <string name="view_all">view all</string>
+    <string name="hot_sales">Hot sales</string>
+    <string name="see_more">see more</string>
+    <string name="best_seller">Best Seller</string>
+    <string name="_1_25">$1,25</string>
+    <string name="samsung_galaxy_s20_ultra">Samsung Galaxy s20 Ultra</string>
+    <string name="_3000_00">$3000.00</string>
+    <string name="minus">-</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="phones">Phones</string>
+    <string name="new_">New</string>
 </resources>
