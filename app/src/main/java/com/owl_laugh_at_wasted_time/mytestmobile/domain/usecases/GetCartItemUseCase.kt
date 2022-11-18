@@ -1,6 +1,6 @@
 package com.owl_laugh_at_wasted_time.mytestmobile.domain.usecases
 
-import com.owl_laugh_at_wasted_time.gata.domain.repository.CartItemsRepository
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.repository.CartItemsRepository
 import javax.inject.Inject
 
 class GetCartItemUseCase @Inject constructor(

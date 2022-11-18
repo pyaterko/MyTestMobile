@@ -3,11 +3,11 @@ package com.owl_laugh_at_wasted_time.mytestmobile.di
 import android.content.Context
 import com.owl_laugh_at_wasted_time.api.di.ApiModule
 import com.owl_laugh_at_wasted_time.api.di.WorkerModule
-import com.owl_laugh_at_wasted_time.gata.database.di.DataModule
-import com.owl_laugh_at_wasted_time.mytestmobile.presintation.ui.activity.MainActivity
-import com.owl_laugh_at_wasted_time.mytestmobile.presintation.ui.fragments.cart.CartFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.presintation.ui.fragments.detail.DetailsFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.presintation.ui.fragments.mainscreen.MainScreenFragment
+import com.owl_laugh_at_wasted_time.gata.di.DataModule
+import com.owl_laugh_at_wasted_time.mytestmobile.view.activity.MainActivity
+import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.cart.CartFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.detail.DetailsFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.mainscreen.MainScreenFragment
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton

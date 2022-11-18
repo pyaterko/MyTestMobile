@@ -33,4 +33,10 @@
     <string name="plus">+</string>
     <string name="phones">Phones</string>
     <string name="new_">New</string>
+    <string name="_4_5_to_5_5_inches">4.5 to 5.5 inches</string>
+    <string name="brand">Brand</string>
+    <string name="_300_500">$300 - $500</string>
+    <string name="prise">Prise</string>
+    <string name="samsung">Samsung</string>
+    <string name="size">Size</string>
 </resources>

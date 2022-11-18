@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "MyTestMobile"
 include ':app'
 include ':api'
-include ':data'
+include ':cart'

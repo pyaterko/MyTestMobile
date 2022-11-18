@@ -43,8 +43,8 @@ android {
 
 dependencies {
 
-    api project(':api')
-    api project(':data')
+    api project(Modules.api)
+    api project(Modules.cart)
 
     implementation Design.appcompat
     implementation Design.material

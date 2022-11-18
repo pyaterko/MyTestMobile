@@ -17,7 +17,7 @@ object Releases {
 object Modules {
     const val app = ":app"
     const val api = ":api"
-    const val data = ":data"
+    const val cart = ":cart"
 }
 
 object Versions {

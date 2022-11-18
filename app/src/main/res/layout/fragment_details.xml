@@ -7,7 +7,7 @@
     android:background="#F5F5F5"
     android:clipChildren="false"
     android:clipToPadding="false"
-    tools:context=".presintation.ui.fragments.detail.DetailsFragment">
+    tools:context=".view.fragments.detail.DetailsFragment">
 
     <TextView
         android:id="@+id/textView11"

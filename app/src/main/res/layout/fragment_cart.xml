@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5"
-    tools:context=".presintation.ui.fragments.cart.CartFragment">
+    tools:context=".view.fragments.cart.CartFragment">
 
     <View
         android:id="@+id/tv_back"
