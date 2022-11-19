@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.owl_laugh_at_wasted_time.gata.entity.CartItem
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.Detailse
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.usecases.AddCartItemUseCase
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.usecases.DetailseUseCase

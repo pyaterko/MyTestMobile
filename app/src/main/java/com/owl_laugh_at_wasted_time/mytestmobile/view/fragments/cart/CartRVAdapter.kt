@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.owl_laugh_at_wasted_time.gata.entity.CartItem
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.R
 import com.owl_laugh_at_wasted_time.mytestmobile.databinding.ItemCartBinding
 

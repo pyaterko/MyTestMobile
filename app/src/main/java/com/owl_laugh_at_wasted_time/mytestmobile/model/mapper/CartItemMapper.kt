@@ -1,7 +1,7 @@
-package com.owl_laugh_at_wasted_time.gata.mapper
+package com.owl_laugh_at_wasted_time.mytestmobile.model.mapper
 
 import com.owl_laugh_at_wasted_time.gata.entity.CartItemDbModel
-import com.owl_laugh_at_wasted_time.gata.entity.CartItem
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import javax.inject.Inject
 
 

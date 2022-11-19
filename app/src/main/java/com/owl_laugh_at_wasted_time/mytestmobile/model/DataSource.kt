@@ -1,7 +1,7 @@
 package com.owl_laugh_at_wasted_time.mytestmobile.model
 
 import com.owl_laugh_at_wasted_time.api.MobileApiWorker
-import com.owl_laugh_at_wasted_time.gata.entity.CartItem
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.BestSellerItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.Detailse
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.HotSales

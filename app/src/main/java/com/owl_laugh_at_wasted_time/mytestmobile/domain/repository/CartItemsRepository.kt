@@ -2,7 +2,7 @@ package com.owl_laugh_at_wasted_time.mytestmobile.domain.repository
 
 
 import androidx.lifecycle.LiveData
-import com.owl_laugh_at_wasted_time.gata.entity.CartItem
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 
 
 interface CartItemsRepository {

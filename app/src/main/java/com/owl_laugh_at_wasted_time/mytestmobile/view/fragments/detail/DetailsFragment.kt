@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.owl_laugh_at_wasted_time.gata.entity.CartItem
+import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.R
 import com.owl_laugh_at_wasted_time.mytestmobile.databinding.FragmentDetailsBinding
 import com.owl_laugh_at_wasted_time.mytestmobile.view.delegates.createViewPagerAdapter

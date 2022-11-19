@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.gata.entity
+package com.owl_laugh_at_wasted_time.mytestmobile.domain.entity
 
 data class CartItem(
     val name: String,
@@ -10,7 +10,6 @@ data class CartItem(
     var isCart: Boolean = false
 ) {
     companion object {
-
         private const val UNDEFINED_AMOUNT = 1
     }
 }

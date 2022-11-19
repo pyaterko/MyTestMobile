@@ -14,7 +14,6 @@ import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.ViewModelFactory
 import javax.inject.Inject
 import kotlin.math.abs
 
-
 open class BaseFragment(layout: Int) : Fragment(layout) {
 
     lateinit var preferences: SharedPreferences
