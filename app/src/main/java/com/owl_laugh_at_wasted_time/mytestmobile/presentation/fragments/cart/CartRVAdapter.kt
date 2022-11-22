@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.cart
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.cart
 
 import android.content.Context
 import android.view.LayoutInflater

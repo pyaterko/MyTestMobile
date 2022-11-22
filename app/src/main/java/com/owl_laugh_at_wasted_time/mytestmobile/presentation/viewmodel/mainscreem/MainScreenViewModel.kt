@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.mainscreem
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.mainscreem
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -10,8 +10,8 @@ import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CategoryItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.HotSales
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.usecases.BestSellerUseCase
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.usecases.HotSalesUseCase
-import com.owl_laugh_at_wasted_time.mytestmobile.model.Categorys
-import com.owl_laugh_at_wasted_time.mytestmobile.model.PriseRange
+import com.owl_laugh_at_wasted_time.mytestmobile.data.Categorys
+import com.owl_laugh_at_wasted_time.mytestmobile.data.PriseRange
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

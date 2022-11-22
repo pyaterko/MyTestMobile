@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.cart
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.cart
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.base
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.base
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
-import com.owl_laugh_at_wasted_time.mytestmobile.view.activity.MainActivity
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.ViewModelFactory
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.activity.MainActivity
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.ViewModelFactory
 import javax.inject.Inject
 import kotlin.math.abs
 

@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.mainscreen
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.mainscreen
 
 import android.content.Context
 import android.os.Bundle
@@ -12,9 +12,9 @@ import com.owl_laugh_at_wasted_time.mytestmobile.databinding.FragmentMainScreenB
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.BestSellerItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CategoryItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.HotSales
-import com.owl_laugh_at_wasted_time.mytestmobile.view.delegates.*
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.base.BaseFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.mainscreem.MainScreenViewModel
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.delegates.*
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.base.BaseFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.mainscreem.MainScreenViewModel
 
 class MainScreenFragment : BaseFragment(R.layout.fragment_main_screen), OnClickCategory,
     OnClickItemBrand, OnClickPriseRange {

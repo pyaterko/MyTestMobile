@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.view.delegates
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.delegates
 
 import android.content.Context
 import android.view.View
@@ -11,8 +11,7 @@ import com.owl_laugh_at_wasted_time.mytestmobile.databinding.*
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.BestSellerItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CategoryItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.HotSales
-import com.owl_laugh_at_wasted_time.mytestmobile.model.PriseRange
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.mainscreen.MainScreenFragmentDirections
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.mainscreen.MainScreenFragmentDirections
 
 fun createViewPagerAdapter() = simpleAdapter<String, ItemDetailsBinding> {
     areContentsSame = { oldItem, newItem -> oldItem == newItem }

@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.model
+package com.owl_laugh_at_wasted_time.mytestmobile.data
 
 import com.owl_laugh_at_wasted_time.api.MobileApiWorker
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem

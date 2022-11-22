@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.model
+package com.owl_laugh_at_wasted_time.mytestmobile.data
 
 import javax.inject.Inject
 

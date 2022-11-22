@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.model.mapper
+package com.owl_laugh_at_wasted_time.mytestmobile.data.mapper
 
 import com.owl_laugh_at_wasted_time.gata.entity.CartItemDbModel
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem

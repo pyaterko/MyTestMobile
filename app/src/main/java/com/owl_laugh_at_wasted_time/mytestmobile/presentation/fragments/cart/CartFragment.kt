@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.cart
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.cart
 
 import android.content.Context
 import android.os.Bundle
@@ -9,9 +9,9 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.R
 import com.owl_laugh_at_wasted_time.mytestmobile.databinding.FragmentCartBinding
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.base.BaseFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.view.delegates.viewBinding
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.cart.CartViewModel
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.base.BaseFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.delegates.viewBinding
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.cart.CartViewModel
 
 class CartFragment : BaseFragment(R.layout.fragment_cart) {
 

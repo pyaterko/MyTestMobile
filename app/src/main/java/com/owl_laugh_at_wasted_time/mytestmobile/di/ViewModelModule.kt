@@ -1,9 +1,9 @@
 package com.owl_laugh_at_wasted_time.mytestmobile.di
 
 import androidx.lifecycle.ViewModel
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.cart.CartViewModel
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.detail.DetailsViewModel
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.mainscreem.MainScreenViewModel
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.cart.CartViewModel
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.detail.DetailsViewModel
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.mainscreem.MainScreenViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

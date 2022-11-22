@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.detail
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.detail
 
 import android.content.Context
 import android.os.Bundle
@@ -8,10 +8,10 @@ import androidx.navigation.fragment.findNavController
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.R
 import com.owl_laugh_at_wasted_time.mytestmobile.databinding.FragmentDetailsBinding
-import com.owl_laugh_at_wasted_time.mytestmobile.view.delegates.createViewPagerAdapter
-import com.owl_laugh_at_wasted_time.mytestmobile.view.delegates.viewBinding
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.base.BaseFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.detail.DetailsViewModel
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.delegates.createViewPagerAdapter
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.delegates.viewBinding
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.base.BaseFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.detail.DetailsViewModel
 import kotlin.random.Random
 
 

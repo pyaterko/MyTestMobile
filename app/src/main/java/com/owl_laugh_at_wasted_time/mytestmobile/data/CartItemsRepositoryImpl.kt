@@ -1,8 +1,8 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.model
+package com.owl_laugh_at_wasted_time.mytestmobile.data
 
 import androidx.lifecycle.Transformations
 import com.owl_laugh_at_wasted_time.gata.dao.CartItemsDao
-import com.owl_laugh_at_wasted_time.mytestmobile.model.mapper.CartItemMapper
+import com.owl_laugh_at_wasted_time.mytestmobile.data.mapper.CartItemMapper
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.entity.CartItem
 import com.owl_laugh_at_wasted_time.mytestmobile.domain.repository.CartItemsRepository
 import javax.inject.Inject

@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.viewmodel.detail
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel.detail
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

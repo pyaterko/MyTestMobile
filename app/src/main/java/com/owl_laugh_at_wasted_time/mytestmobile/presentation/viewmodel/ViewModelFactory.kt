@@ -1,4 +1,4 @@
-package com.owl_laugh_at_wasted_time.mytestmobile.viewmodel
+package com.owl_laugh_at_wasted_time.mytestmobile.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

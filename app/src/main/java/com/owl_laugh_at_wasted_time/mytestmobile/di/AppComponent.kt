@@ -4,10 +4,10 @@ import android.content.Context
 import com.owl_laugh_at_wasted_time.api.di.ApiModule
 import com.owl_laugh_at_wasted_time.api.di.WorkerModule
 import com.owl_laugh_at_wasted_time.gata.di.DataModule
-import com.owl_laugh_at_wasted_time.mytestmobile.view.activity.MainActivity
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.cart.CartFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.detail.DetailsFragment
-import com.owl_laugh_at_wasted_time.mytestmobile.view.fragments.mainscreen.MainScreenFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.activity.MainActivity
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.cart.CartFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.detail.DetailsFragment
+import com.owl_laugh_at_wasted_time.mytestmobile.presentation.fragments.mainscreen.MainScreenFragment
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton
